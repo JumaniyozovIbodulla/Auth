@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS "roles";
+DROP TABLE IF EXISTS "sysuser_roles";
+DROP TABLE IF EXISTS "sysusers";
+DROP TABLE IF EXISTS "otp";
+DROP TABLE IF EXISTS "users";
+DROP TYPE IF EXISTS "otp_statuses";
+DROP TYPE IF EXISTS "statuses";
