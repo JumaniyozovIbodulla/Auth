@@ -10,8 +10,8 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/auth-service.git
-   cd auth-service
+   git clone git@github.com:JumaniyozovIbodulla/Auth.git
+   cd Auth
 
 
 2. **Install dependencies**  
@@ -23,18 +23,21 @@ To get started with the project, follow these steps:
    Add a .env file (or use config.yaml, depending on your setup) with necessary configurations such as database connection, JWT secret, etc.
 
 
+
+
 4. **Run the application**
     ```bash
-    go run main.go
+    go run cmd/main.go
 
 
+---
 
 ## 🧱 Project Architecture
     ```bash
-  /cmd
-        main.go      → App entrypoint
-  /api               → HTTP handlers (routes, middleware)
-  /service           → Business logic
-  /storage           → Database layer
-  /model             → Request/response structs and DB models
-  /pkg               → Utility functions
+    /cmd
+            main.go      → App entrypoint
+    /api               → HTTP handlers (routes, middleware)
+    /service           → Business logic
+    /storage           → Database layer
+    /model             → Request/response structs and DB 
+    /pkg               → Utility functions
